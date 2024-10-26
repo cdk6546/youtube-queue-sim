@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="theme.css">
+
+    <title>YouTube API Test</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="logic.js"></script>
+
+    <script async defer src="https://apis.google.com/js/api.js" onload="init()"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    
+    <link rel="stylesheet" href="theme.css">
+
+</head>
+<body>
+    <div class="loading">
+        <div class ="title-load"><h1>Loading...</h1></div>
+        <div class="loader"></div> 
+    </div>
+
+    <div class="main">
+        <h1>YouTube API Test</h1>
+        
+        <div class = "player-queue-row">
+            <div id="player"></div>
+            <div id="queue-container">
+                Current Queue:
+                <ol id="queue-list"></ol>
+                <button id="play-queue-button" onclick="play()">Update Queue</button>
+            </div>
+        </div>
+
+        <br/><input type="text" id="search-query" placeholder="Search for videos">
+        <button id="search-button">Search</button>
+        <div id="search-container"></div>
+    </div>
+</body>
+</html>
