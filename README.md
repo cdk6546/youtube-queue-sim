@@ -1,4 +1,5 @@
 ## youtube api experiment
+current time spent: ~3.5hrs
 
 ### why?
 the main idea of this project was to refamiliarize myself with the html/css/js web development flow and to learn the youtube api. i've noticed that youtube music specifically is lacking a group queue feature, like spotify has. the end goal is to simulate that utilizing youtube music.
@@ -14,4 +15,3 @@ the main idea of this project was to refamiliarize myself with the html/css/js w
 - set up a config json file with a API-KEY value from ```https://console.cloud.google.com```'s API services
 - queue up some songs, then hit "update queue".
 - hit play!
-
